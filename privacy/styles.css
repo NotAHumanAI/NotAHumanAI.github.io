@@ -1,0 +1,117 @@
+/* Containers */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #012040, #5D5D8A);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  height: 100vh;
+}
+
+header {
+  padding: 25vh 0 0 0;
+  max-width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 5vh 0 0 0;
+  }
+}
+
+.section {
+  padding: 15vh 0 0 0;
+  margin: auto;
+}
+
+
+/* Custom Button */
+
+button {
+  text-align: center;
+  font-size: 2.5vh;
+  transition: 0.3s;
+  width: 30vw;
+  border-radius: 0.5vh;
+  border: 0.5vh solid #fff;
+  height: fit-content;
+  min-height: 6vh;
+  cursor: pointer;
+  mix-blend-mode: screen;
+  background: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  button {
+    width: 60vw;
+  }
+}
+
+button:hover {
+  color: white;
+  background: transparent;
+}
+
+
+/* Text */
+
+h1 {
+  font-size: 8vh;
+  margin: 0;
+  background: -webkit-linear-gradient(#fff, #ddd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  background: -webkit-linear-gradient(#fff, #ddd);
+  font-size: 3vh;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-size: 4vh;
+}
+
+.description {
+  font-size: 2.5vh;
+  max-width: 60%;
+  margin: auto;
+  text-align: justify;
+}
+
+a {
+  color: #fff;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .description {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    font-size: 3vh;
+  }
+}
+
+.description+.description {
+  margin-top: 1vh;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0;
+}

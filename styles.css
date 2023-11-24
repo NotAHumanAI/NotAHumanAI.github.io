@@ -69,20 +69,12 @@ h3 {
   }
 }
 
-.description + .description {
+.description+.description {
   margin-top: 1vh;
 }
 
 a {
   color: #fff;
-}
-
-.smallText {
-  max-width: 70%;
-  margin: auto;
-  text-align: justify;
-  padding: 1vh 0 1vh 0;
-  font-size: 1vh;
 }
 
 
